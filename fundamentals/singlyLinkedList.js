@@ -6,7 +6,7 @@ class Node {
 }
 
 class SLL {
-    constructor(){
+    constructor(value){
         this.head = null;
     }
     //methods go here for assignments
@@ -21,6 +21,12 @@ class SLL {
             return null;
         }
         this.head = this.head.next;
+        return this.head;
+    }
+    addFront(value){
+        let newNode = new Node(value);
+        newNode.next = this.head;
+        this.head = newNode;
         return this.head;
     }
 

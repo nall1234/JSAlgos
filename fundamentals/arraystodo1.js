@@ -1,7 +1,7 @@
 // Push Front
 // Given an array and an additional value, insert this value at the beginning of the array. Do this without using any built-in array methods.
 
-/*var myArr = [2,3,4,5]
+var myArr = [2,3,4,5]
 myArr[myArr.length] = 1
 var temp = []
 
@@ -79,7 +79,7 @@ function swapPairs(arr){
 
 console.log(swapPairs([1,2,3,4,5]))
 
-*/
+
 // Remove Duplicates
 // Sara is looking to hire an awesome web developer and has received applications from various sources. Her assistant alphabetized them but noticed some duplicates. Given a sorted array, remove duplicate values. Because array elements are already in order, all duplicate values will be grouped together. As with all these array challenges, do this without using any built-in array methods.
 
