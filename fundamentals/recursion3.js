@@ -46,7 +46,7 @@
 
 function GCF(a, b) {
     if (a == b) {
-        return param1;
+        return a;
     }
     if (a > b) {
         if ((a/b) % 1 === 0) {
