@@ -100,7 +100,7 @@ class BST {
         }
         var leftside = this.size(current_node.left);
         var rightside = this.size(current_node.right);
-        return 1 + leftside = rightside;
+        return 1 + leftside + rightside;
     }
 }
 

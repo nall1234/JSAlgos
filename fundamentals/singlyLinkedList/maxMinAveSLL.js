@@ -6,7 +6,7 @@ class Node {
 }
 
 class SLL {
-    constructor(value){
+    constructor(){
         this.head = null;
     }
 
